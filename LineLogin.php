@@ -4,7 +4,7 @@ class LineLogin
     #### change your id
     const CLIENT_ID = '2000822657';
     const CLIENT_SECRET = 'e8254c0d58db4aae9baa1783fbcf7314';
-     const REDIRECT_URL = 'https://localhost/line/callback.php';
+     const REDIRECT_URL = 'http://localhost:8888/line/callback.php';
 
      const AUTH_URL = 'https://access.line.me/oauth2/v2.1/authorize';
      const PROFILE_URL = 'https://api.line.me/v2/profile';
